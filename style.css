@@ -1,0 +1,140 @@
+body {
+	font-family: Lora, serif;
+	font-size: 17px;
+	font-weight: 500;
+	background: #F7F9FC;
+	color: #575F7D;
+}
+
+h1, h2, h3 {
+	font-family: Roboto, sans-serif;
+}
+
+h1 {
+	color: #575F7D;
+	font-size: 32px;
+	font-weight: 900;
+}
+
+h2 {
+	color: #7ECE90;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+a {
+	font-family: Roboto, sans-serif;
+	text-decoration: none;
+	color: #6B72E1;
+	font-weight: 600;
+	font-size: 16px;
+}
+
+p {
+	text-align: justify;
+}
+
+a:hover {
+	color: rgb(50, 50, 50);
+}
+
+#img-circle {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto; /* auto is for exact the same margin on the left and the right */
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px; 
+		margin: 25px auto; /* auto is for exact the same margin on the left and the right */
+	}
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px; 
+		margin: 15px auto; /* auto is for exact the same margin on the left and the right */
+	}
+}
+
+
+@media (max-width: 320px) {
+	.container {
+		width: 320px; 
+		margin: 10px auto; /* auto is for exact the same margin on the left and the right */
+	}
+}
+
+
+.box-design {
+	background: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.btn-link {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-link:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li { /* only the list items inside .list-inline */
+	display: inline;
+	padding: 4px;
+}
+
+.list-inline i { 
+	font-size: 40px;
+	color: gray;
+}
+
+.list-inline i:hover { 
+	color: rgb(30, 30, 30);
+}
+
+#intro p{
+	margin-bottom: 40px;
+}
+
+/* #teste h2 {  modifica o h2 só dentro da div que usou esse 
+	color: yellow; 
+
+se eu tiver uma element com id e classe, o atributo do id prevalce, pq ele é mais espefícico. Id > classe > geral (id + específico).
+
+ex:
+
+p {
+	color: black;
+}
+
+.text-red {
+	color: red;
+}
+#bio {
+	color: green;
+}
+
+<p id="bio" class="text-red">ramalatá</p>   - the color of that text will be gree, because class is more specific.
+
+
+
+	id*/
